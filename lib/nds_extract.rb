@@ -18,6 +18,12 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  array = directors_database[0][:name][:movies][:world]
+  array = directors_database[0][:name][:movies][:worldwide_gross]
+  
+  index = 0;
+  total = 0;
+  
+  while index < array.length do
+    
   return {}
 end
