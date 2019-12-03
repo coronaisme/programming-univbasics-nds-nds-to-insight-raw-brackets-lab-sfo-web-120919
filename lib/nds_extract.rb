@@ -1,8 +1,6 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
-
- 
  def directors_totals(nds)
   director_index = 0
   result = {} 
@@ -13,7 +11,8 @@ require 'directors_database'
     movie_index = 0
 
     while movie_index < nds[director_index][:movies].length do
-      result[director_name] += nds[director_index][:movies][movie_index][:worldwide_gross]
+      result[director_name] += nds[director_index]
+      [:movies][movie_index][:worldwide_gross]
       movie_index += 1
     end
 
