@@ -21,6 +21,6 @@ def directors_totals(nds)
   index = 0
   total = {}
   
-  
+  while name 
   
 end
