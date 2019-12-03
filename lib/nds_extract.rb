@@ -26,6 +26,6 @@ def directors_totals(nds)
   while index < array.length do
     total += array[index]
     index += 1
-  return {total}
+  return total
 end
 end
